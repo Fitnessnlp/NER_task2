@@ -3,10 +3,10 @@
 >>> json_data包含json格式的病历数据，data文件夹中有原始数据
 
 ## 代码：
-          albert_model_train.py是albert + bilstm
-          albert_crf_model_train.py是albert + bilstm + crf
-          load_data.py
-          preprocess_data.py将原始数据转化成json格式
+>>albert_model_train.py是albert + bilstm  
+>>albert_crf_model_train.py是albert + bilstm + crf  
+>>load_data.py  
+>>preprocess_data.py将原始数据转化成json格式  
 
 ## 模型结果：
 #### albert_model
