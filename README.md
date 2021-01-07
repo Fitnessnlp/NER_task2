@@ -10,7 +10,7 @@
 
 ## 模型结果：
 #### albert+bilstm
-     precision    recall  f1-score   support
+     >>precision    recall  f1-score   support
      ORI     0.7077    0.6126    0.6567       826
      TRA     0.6855    0.5616    0.6174       885
       SIZ     0.2787    0.3301    0.3022       103
