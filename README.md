@@ -1,6 +1,6 @@
 # ALBERT for Chinese Clinical NER Task
 ## 说明：
-* albert_zh为ALBERT提取文本特征模块，这部分代码是开源的
+* 开源代码albert_zh为ALBERT提取文本特征模块
 * 标注采用BIO系统
 * utils.py是配置文件路径和模型等参数
 * load_data.py将标签转为id，生成label2id.json文件
