@@ -8,8 +8,8 @@
 * 模型训练是albert_model_train.py和albert_crf_model_train.py
 
 ## 数据：
->>> data中有电子病历的标注数据和非标注数据
->>> json_data包含json格式的病历数据，data文件夹中有原始数据
+>>> data中有电子病历的标注数据和非标注数据  
+>>> json_data包含json格式的病历数据，data文件夹中有原始数据  
 
  
 
