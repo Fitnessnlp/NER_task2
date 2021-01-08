@@ -1,12 +1,17 @@
-# Implement of ALBERT for Chinese Clinical NER Task
-## 数据
+# ALBERT for Chinese Clinical NER Task
+## 说明：
+* albert_zh为ALBERT提取文本特征模块，这部分代码是开源的
+* 标注采用BIO系统
+* utils.py是配置文件路径和模型等参数
+* load_data.py将标签转为id，生成label2id.json文件
+* preprocess_data.py将原始数据转化成json格式 
+* 模型训练是albert_model_train.py和albert_crf_model_train.py
+
+## 数据：
+>>> data中有电子病历的标注数据和非标注数据
 >>> json_data包含json格式的病历数据，data文件夹中有原始数据
 
-## 代码：
->>albert_model_train.py是albert + bilstm  
->>albert_crf_model_train.py是albert + bilstm + crf  
->>load_data.py  
->>preprocess_data.py将原始数据转化成json格式  
+ 
 
 ## 模型结果：
 #### albert_model
